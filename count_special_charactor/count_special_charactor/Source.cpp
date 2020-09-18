@@ -15,9 +15,9 @@ int main()
 	printf("Enter the sentence : ");
 	scanf("%s", &str);
 	count = strlen(str);
-	if (count >= 1)
+	for (int i = 0; i < count; i++)
 	{
-		for (int i = 0; i < count; i++)
+		if (count >= 1)
 		{
 			if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= '0' && str[i] <= '9'))
 			{
